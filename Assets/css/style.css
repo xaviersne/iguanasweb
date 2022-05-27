@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+  }
+  
+body *  {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 25px;
+}
+  
+h1, h2, p {
+    color: white;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+img {
+    width: 100%;
+}
+
+header{
+    background-color: #000000;
+}
+header img{
+    width: 100%;
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.desc-section{
+    background-color:#000000;
+}
+.desc-section .container div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+
+}
+.desc-section img {
+    margin-left: 50px;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+
+.icons-section {
+    background-color: #1E1A13;
+    color: #ffffff;
+}
+.icons-section .container div {
+    width: 33%;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.icons-section i {
+    padding-top: 40px;
+    font-size: 48px;
+}
+.imagenes .container div {
+    width: 33%;
+    display: inline-block;
+}
+.imagenes img {
+    height: 180px;
+    margin:auto;
+    width: 98%;
+    object-fit: cover;
+    object-position: center;
+}
+section img{
+    padding: 10px;
+}
+
+.footer{
+    background-color: #1E1A13;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;}
+    
+    a {
+        color: #ffffff;
+    }
